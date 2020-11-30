@@ -29,19 +29,7 @@ $("#form2").submit(function(event){
 $("#uname").change(function(){
     let username=$("#uname").val();
     searchUsername(username); 
-})*/
-
-    
-
-
-
-});
-
-
-
-
-
-
+})*/});
 
 let searchpageno=(pagenumber=>{
     $("#finalout").empty();
@@ -58,11 +46,7 @@ let searchpageno=(pagenumber=>{
             //nameDiv.append(nameElement);
 
             $("#finalout").append(user);
-           // $("#finalout").append(nameElement);
-        
-
-            
-            
+           // $("#finalout").append(nameElement);    
         }
         $('.demo').rpmPagination({
             domElement: '.item',
